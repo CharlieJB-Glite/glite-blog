@@ -3,7 +3,7 @@ layout: default_post
 title: "Sample Post 3"
 date: 2023-10-01
 desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-image: '../assets/images/article_imgs/article3_header.jpg'
+image: '{{ site.baseurl }}/assets/images/article_imgs/article3_header.jpg'
 ---
 
 # Sample Post 3
