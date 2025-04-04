@@ -28,8 +28,13 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     width: 100%;
+}
+
+footer p{
+    color: #919191;
+
 }
 
 /* HEADER */
@@ -37,7 +42,8 @@ footer {
 header {
     position: sticky;
     top: 0;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    border-bottom: 1px solid rgb(229, 229, 229);
     padding: 1rem 2rem;
     display: flex;
     flex-flow: row nowrap;
