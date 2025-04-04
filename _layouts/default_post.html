@@ -11,22 +11,25 @@
 <body>
     <header>
         <div class="header_inner">
-            <div class="header_left">
-                <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo" class="logo">
-                <p class="header_title">{{ site.title }}</p>
-            </div>
+            <a href="{{ site.baseurl }}/">
+                <div class="header_left">
+                    <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo" class="logo">
+                    <p class="header_title">{{ site.title }}</p>
+                </div>
+            </a>
             <nav class="header_right">
-                <a href="https://glite.ai" class="btn_visit_glite" target="_blank" rel="noopener noreferrer">Visit
-                    Glite.ai</a>
+                <a href="https://glite.ai" class="btn_visit_glite" target="_blank" rel="noopener noreferrer">Learn more
+                    about Glite</a>
             </nav>
         </div>
     </header>
     <main>
-        <a href="{{ site.baseurl }}" class="btn_back">< Back</a>
-        {{ content }}
+        <a href="{{ site.baseurl }}" class="btn_back">
+            < Back</a>
+                {{ content }}
     </main>
     <footer>
-        <p>&copy; 2025 Glite Tech Ltd.</p>
+        <p>Copyright &copy; 2025 Glite Tech Ltd.</p>
     </footer>
 </body>
 
