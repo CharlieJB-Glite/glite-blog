@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post_list">
     {% for post in site.posts %}
-    <a href="{{ site.baseurl }}/{{ post.url }}" class="post_link">
+    <a href="{{ post.url }}" class="post_link">
         <div class="post">
             <img src="{{ post.image }}" alt="{{ post.title }}" class="post_header_img">
 
