@@ -59,6 +59,10 @@ header {
     width: 100%;
 }
 
+.header_inner a{
+    margin: 0;
+}
+
 .header_left {
     display: flex;
     align-items: center;
