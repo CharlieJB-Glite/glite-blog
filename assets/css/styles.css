@@ -27,9 +27,10 @@ main {
 
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #fafafa;
     width: 100%;
+    font-size: 0.9rem;
 }
 
 footer p{
@@ -44,11 +45,10 @@ header {
     top: 0;
     /* background-color: #f4f4f4; */
     border-bottom: 1px solid rgb(229, 229, 229);
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: space;
 }
 
 .header_inner{
