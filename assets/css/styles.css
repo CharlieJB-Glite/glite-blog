@@ -3,7 +3,6 @@ body {
     height: 100%;
     margin: 0;
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-    overflow-x: hidden;
 }
 
 body {
@@ -27,7 +26,7 @@ main {
 
 footer {
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     background-color: #fafafa;
     width: 100%;
     font-size: 0.9rem;
@@ -139,10 +138,6 @@ header a {
 
 .post_link{
     border-radius: 0.25rem;
-}
-
-.post:hover {
-    background-color: #f4f4f4;  
 }
 
 .post {
