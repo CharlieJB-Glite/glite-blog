@@ -5,14 +5,12 @@ layout: default
     {% for post in site.posts %}
     <a href="{{ post.url }}" class="post_link">
         <div class="post">
-            <img src="{{ post.image }}" alt="{{ post.title }}" class="post_header_img">
+            <!-- <img src="{{ post.image }}" alt="{{ post.title }}" class="post_header_img"> -->
 
             <div>
                 <h2>{{ post.title }}</h2>
-                <p class="post_date">{{ post.date | date: "%B %-d, %Y" }}</p>
-                {% if post.image %}
-                {% endif %}
-                <p>{{ post.desc | strip_html | truncatewords: 30 }}</p>
+                <p class="post_date">{{ post.datefor th | date: "%B %-d, %Y" }}</p>
+                <p>{{ post.desc | strip_html | truncatewords: 50 }}</p>
             </div>
         </div>
     </a>
