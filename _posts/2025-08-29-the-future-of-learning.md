@@ -25,13 +25,17 @@ Bloom’s research demonstrated that students receiving one-on-one tutoring outp
 - Identifying knowledge gaps dynamically.
 - Offering real-time feedback.
 
-_Bloom’s study showed one-on-one tutoring (far right) drastically outperforms conventional classroom learning._
+![3 curves on a graph where the x-axis is summative achievement score and the y-axis is implied to be total count. '1-to-1 tutorial' is showed to have a higher number of high achievement scores compares to 'conventional' and 'mastery learning' 1-to-30 methods.](/assets/images/article_imgs/bloom_study.png)
+
+_Benjamin Bloom (1984) The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. Bloom’s study showed one-on-one tutoring (far right) drastically outperforms conventional classroom learning._
 
 ---
 
 ## The Unprecedented Pace of Knowledge Growth
 
 One of the most pressing challenges in modern education is the **exponential growth of knowledge**. As highlighted in the AI-Powered Education Meetup, data from IBM suggests that by 2020, knowledge was doubling every **11–12 hours**—a staggering acceleration compared to historical benchmarks:
+
+![A curve showing an exponential increase in kowledge between the years 1900 and 2020](/assets/images/article_imgs/knowledge_shift.png)
 
 This rapid expansion means that **static curricula are obsolete**. Students can no longer rely on a fixed set of subjects; instead, they require dynamic, personalised learning systems that evolve alongside global advancements.
 
@@ -45,7 +49,7 @@ A student mind profile is a dynamic, AI-powered model that captures a learner’
 - Learning preferences – How they learn best (e.g., visual, hands-on).
 - Strengths & weaknesses – Specific topics needing improvement.
 
-### The Limitations of LLMs — And the Hybrid Solution
+## The Limitations of LLMs — And the Hybrid Solution
 
 While LLMs like ChatGPT demonstrate remarkable language understanding, they hit a wall when tasked with building _true_ student mind profiles. Their reliance on broad, public datasets means they miss the nuances of individual learning patterns—exactly where Knowledge Tracing (KT) models excel.
 
@@ -55,9 +59,9 @@ This gap isn’t just theoretical. In practice, LLMs struggle to:
 - Personalize recommendations without access to private learning histories.
 - Adapt to _unseen_ questions or concepts outside their training data.
 
----
+![A simple digram of a persons head with a graph network where the brain is](/assets/images/article_imgs/network.png)
 
-## The Solution? Combine the Best of Both Worlds.
+## The Solution? Combine the Best of Both Worlds
 
 By integrating LLMs with Knowledge Tracing, we create hybrid systems that:
 
@@ -80,6 +84,8 @@ The earliest knowledge tracing systems borrowed from an unlikely source - chess 
 - Rated each question with a _difficulty parameter_ (β)
 - Predicted success using: `P(correct) = e^(θ - β) / (1 + e^(θ - β))`
 
+![A formatted version of the formula previously mentioned](/assets/images/article_imgs/rasch_model.png)
+
 **Limitation:** Like chess ratings, it treated knowledge as one-dimensional - impossible for complex subjects.
 
 ### 2. First-Generation AI: Bayesian Knowledge Tracing (1990s)
@@ -92,11 +98,13 @@ Early intelligent tutoring systems introduced:
 
 ### 3. The Deep Learning Revolution (2010s)
 
-| Model        | Innovation            | Impact                          |
-|--------------|-----------------------|----------------------------------|
-| DKT (2015)   | First use of RNNs     | Tracked knowledge state transitions |
-| DKVMN (2017) | Memory networks       | Modeled concept relationships    |
-| AKT (2020)   | Attention mechanisms  | Captured long-term dependencies  |
+| Model         | Innovation            | Impact                                |
+|---------------|-----------------------|---------------------------------------|
+| DKT (2015)    | First use of RNNs     | Tracked knowledge state transitions   |
+| DKVMN (2017)  | Memory networks       | Modeled concept relationships         |
+| AKT (2020)    | Attention mechanisms  | Captured long-term dependencies       |
+
+![2 diagrams showing a recurrent neural network and an attentive one](/assets/images/article_imgs/nn_architecture.png)
 
 ### 4. The Transformer Era (2020s)
 
@@ -106,9 +114,7 @@ Modern systems now leverage:
 - Multimodal Inputs: Processing text, diagrams, and more
 - Zero-Shot Capabilities: Handling unseen questions
 
-### Why This Matters
-
-Each innovation solved specific limitations - from Rasch's one-dimensional view to today's holistic learning profiles. The next frontier? Unifying these approaches into _foundational knowledge models_ that learn across subjects and languages.
+**Why This Matters**: Each innovation solved specific limitations - from Rasch's one-dimensional view to today's holistic learning profiles. The next frontier? Unifying these approaches into _foundational knowledge models_ that learn across subjects and languages.
 
 ---
 
@@ -116,31 +122,35 @@ Each innovation solved specific limitations - from Rasch's one-dimensional view 
 
 The most advanced education systems today leverage a powerful dual-architecture approach that combines natural language understanding with sophisticated progress tracking. At the core lies a **language understanding layer** powered by models like BERT, which transform educational content—whether math problems, vocabulary questions, or science concepts—into rich semantic vectors that capture actual meaning rather than just question IDs. This enables the system to comprehend content at a deep level and handle multiple languages seamlessly. Working in tandem, the **knowledge tracing layer** employs specialized models like Attentive Knowledge Tracing (AKT) that continuously monitor each student's learning journey, adapting to their unique pace and predicting future performance with remarkable accuracy. Together, these components create an intelligent system that doesn't just present information, but truly understands both the material and the learner—enabling personalized education at unprecedented scale.
 
-### Proven Results: Case Studies That Demonstrate Impact
+## Proven Results: Case Studies That Demonstrate Impact
 
 Real-world applications of hybrid AI models are already delivering transformative results. In one breakthrough case, a language learning app tackling the challenge of tracking knowledge across 70,000+ words implemented a novel solution: using BERT to encode word meanings and feeding these embeddings into a knowledge tracing model. The results were striking—while known words achieved an excellent 0.89 AUC prediction score, the system's ability to handle unseen words improved dramatically from 0.67 to 0.88 AUC after fine-tuning. _“When we paired a language model with knowledge tracing, performance on unseen words jumped dramatically,”_ the developer reported. Similarly promising outcomes emerged from a 2024 mathematics education study, where researchers developed a Language Model-KT (LKT) system that processed actual math problem text (rather than relying on question IDs) and used special tokens to track correct/incorrect responses. This approach consistently outperformed traditional Deep Knowledge Tracing models, demonstrating the power of combining semantic understanding with personalized progress tracking in real educational settings.
 
----
+### The Competitive Edge: Hybrid vs. Other Approaches
 
-## The Competitive Edge: Hybrid vs. Other Approaches
-
-| Approach | Strengths                      | Weaknesses                       | Best For         |
-|---------|---------------------------------|----------------------------------|------------------|
-| LLM Only | Deep language understanding     | No memory of student progress    | General Q&A      |
-| KT Only  | Excellent progress tracking     | Can't handle new questions       | Fixed curriculum |
-| Hybrid   | **Both understanding + tracking** | Higher compute needs             | **Adaptive learning** |
+| Approach  | Strengths                          | Weaknesses                     | Best For                |
+|-----------|------------------------------------|--------------------------------|-------------------------|
+| LLM Only  | Deep language understanding        | No memory of student progress  | General Q&A             |
+| KT Only   | Excellent progress tracking        | Can't handle new questions     | Fixed curriculum        |
+| Hybrid    | **Both understanding + tracking**  | Higher compute needs           | **Adaptive learning**   |
 
 ### The Power of Attentive Knowledge Tracing (AKT)
 
-At the cutting edge of personalized learning systems, Attentive Knowledge Tracing (AKT) represents a significant leap beyond traditional approaches by incorporating transformer-style attention mechanisms - the same architecture that powers modern large language models. At its core, AKT enhances standard knowledge tracing through sophisticated Rasch-based embeddings that simultaneously encode question difficulty, concept relationships, and individual response patterns. 
+At the cutting edge of personalized learning systems, Attentive Knowledge Tracing (AKT) represents a significant leap beyond traditional approaches by incorporating transformer-style attention mechanisms - the same architecture that powers modern large language models. At its core, AKT enhances standard knowledge tracing through sophisticated Rasch-based embeddings that simultaneously encode question difficulty, concept relationships, and individual response patterns.
+
+![A diagram showing the Rasch model-based embeddings](/assets/images/article_imgs/rasch_embeddings.png)
 
 Unlike simpler models that process questions in isolation, AKT's attention mechanism dynamically weights the importance of each previous interaction based on its relevance to the current learning moment, mirroring how human tutors selectively focus on pertinent aspects of a student's history. This architecture enables remarkably precise predictions with exceptional accuracy. The performance gains are quantifiable - benchmark results (see image below) show AKT achieving an AUC of 0.8306 compared to DKT's 0.8149 on standard datasets, with even more pronounced advantages (0.8033 vs 0.7689) on complex problem-solving tasks.
+
+![A table comparing the performance of different models](/assets/images/article_imgs/pykt_library.png)
+
+_Liu, Zitao, et al. pyKT: a python library to benchmark deep learning based knowledge tracing models. NeurIPS (2022)_
 
 What makes AKT particularly powerful is its ability to not just predict performance, but to identify which specific historical learning moments most influence current knowledge gaps, enabling targeted remediation that addresses the root causes of misunderstandings rather than just their symptoms. This attention-powered approach represents the current state-of-the-art in balancing computational efficiency with educational insight, though as the transcript notes, properly tuned recurrent models can sometimes match its performance for specific applications.
 
 ### Overcoming Implementation Challenges
 
-While knowledge tracing systems offer transformative potential, deploying them at scale presents several practical hurdles that developers must address. The computational demands of advanced models remain significant making real-time implementation challenging for resource-constrained educational institutions. Data requirements pose another barrier - systems need extensive, high-quality interaction data to achieve accurate predictions, exemplified by the vocabulary app's approach of releasing a dedicated test (See image below) to gather initial training data. 
+While knowledge tracing systems offer transformative potential, deploying them at scale presents several practical hurdles that developers must address. The computational demands of advanced models remain significant making real-time implementation challenging for resource-constrained educational institutions. Data requirements pose another barrier - systems need extensive, high-quality interaction data to achieve accurate predictions, exemplified by the vocabulary app's approach of releasing a dedicated test (See image below) to gather initial training data.
 
 Perhaps most critically, these systems must navigate complex privacy considerations when handling sensitive student learning data which is "often private and rarely documented in public datasets." These challenges collectively underscore the importance of developing efficient model architectures, creating ethical data collection frameworks, and implementing robust privacy-preserving techniques to make personalized learning both effective and responsible.
 
