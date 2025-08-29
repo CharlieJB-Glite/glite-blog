@@ -152,6 +152,14 @@ header a {
     transition: .15s ease-in-out;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #555; /* dark grey */
+}
+
 .divider {
     width: 100%;
     border-bottom: 1px solid rgb(230, 230, 230);

@@ -49,7 +49,7 @@ A student mind profile is a dynamic, AI-powered model that captures a learner’
 - Learning preferences – How they learn best (e.g., visual, hands-on).
 - Strengths & weaknesses – Specific topics needing improvement.
 
-## The Limitations of LLMs — And the Hybrid Solution
+### The Limitations of LLMs — And the Hybrid Solution
 
 While LLMs like ChatGPT demonstrate remarkable language understanding, they hit a wall when tasked with building _true_ student mind profiles. Their reliance on broad, public datasets means they miss the nuances of individual learning patterns—exactly where Knowledge Tracing (KT) models excel.
 
@@ -59,9 +59,7 @@ This gap isn’t just theoretical. In practice, LLMs struggle to:
 - Personalize recommendations without access to private learning histories.
 - Adapt to _unseen_ questions or concepts outside their training data.
 
-![A simple digram of a persons head with a graph network where the brain is](/assets/images/article_imgs/network.png)
-
-## The Solution? Combine the Best of Both Worlds
+### The Solution? Combine the Best of Both Worlds
 
 By integrating LLMs with Knowledge Tracing, we create hybrid systems that:
 
@@ -122,7 +120,7 @@ Modern systems now leverage:
 
 The most advanced education systems today leverage a powerful dual-architecture approach that combines natural language understanding with sophisticated progress tracking. At the core lies a **language understanding layer** powered by models like BERT, which transform educational content—whether math problems, vocabulary questions, or science concepts—into rich semantic vectors that capture actual meaning rather than just question IDs. This enables the system to comprehend content at a deep level and handle multiple languages seamlessly. Working in tandem, the **knowledge tracing layer** employs specialized models like Attentive Knowledge Tracing (AKT) that continuously monitor each student's learning journey, adapting to their unique pace and predicting future performance with remarkable accuracy. Together, these components create an intelligent system that doesn't just present information, but truly understands both the material and the learner—enabling personalized education at unprecedented scale.
 
-## Proven Results: Case Studies That Demonstrate Impact
+### Proven Results: Case Studies That Demonstrate Impact
 
 Real-world applications of hybrid AI models are already delivering transformative results. In one breakthrough case, a language learning app tackling the challenge of tracking knowledge across 70,000+ words implemented a novel solution: using BERT to encode word meanings and feeding these embeddings into a knowledge tracing model. The results were striking—while known words achieved an excellent 0.89 AUC prediction score, the system's ability to handle unseen words improved dramatically from 0.67 to 0.88 AUC after fine-tuning. _“When we paired a language model with knowledge tracing, performance on unseen words jumped dramatically,”_ the developer reported. Similarly promising outcomes emerged from a 2024 mathematics education study, where researchers developed a Language Model-KT (LKT) system that processed actual math problem text (rather than relying on question IDs) and used special tokens to track correct/incorrect responses. This approach consistently outperformed traditional Deep Knowledge Tracing models, demonstrating the power of combining semantic understanding with personalized progress tracking in real educational settings.
 
@@ -154,7 +152,7 @@ While knowledge tracing systems offer transformative potential, deploying them a
 
 Perhaps most critically, these systems must navigate complex privacy considerations when handling sensitive student learning data which is "often private and rarely documented in public datasets." These challenges collectively underscore the importance of developing efficient model architectures, creating ethical data collection frameworks, and implementing robust privacy-preserving techniques to make personalized learning both effective and responsible.
 
-## The Future: Where This Technology Is Heading
+### The Future: Where This Technology Is Heading
 
 The next generation of AI-powered education systems is poised to revolutionize learning with groundbreaking capabilities. These advanced platforms will deliver true multilingual support without requiring translation, seamlessly incorporating extracurricular activities like books read into their adaptive algorithms. Most transformative of all, they'll create comprehensive lifelong learning profiles that evolve alongside students, capturing their entire educational journey from childhood through adulthood. _“This suggests a pathway toward models that encode any activity—not just within one subject,”_ the speaker noted, envisioning systems that could synthesize learning across academic disciplines, languages, and real-world experiences into a unified, ever-growing knowledge map for each individual learner.
 
