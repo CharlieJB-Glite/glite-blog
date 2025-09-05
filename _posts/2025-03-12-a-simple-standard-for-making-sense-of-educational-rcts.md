@@ -6,13 +6,11 @@ desc: "I was very happy to find so many papers on education that used Randomised
 image: './assets/images/article_imgs/article1_header.jpeg'
 ---
 
+# ERCT: A Simple Standard for Making Sense of Educational RCTs
+
 July 5, 2025
 
 By Vassili Philippov
-
----
-
-# ERCT: A Simple Standard for Making Sense of Educational RCTs
 
 When you think about how to make education better, it's helpful to read good educational research papers. I was very happy to find so many papers on education that used Randomised/Randomised Control Trials. But after the first 20 papers, I stopped being happy and started to feel tired.
 

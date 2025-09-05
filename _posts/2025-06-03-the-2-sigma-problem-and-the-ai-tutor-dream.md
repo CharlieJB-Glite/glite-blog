@@ -6,13 +6,11 @@ desc: "The AI tutor dream is somewhat built on a 1984 study, “The 2 Sigma Prob
 image: './assets/images/article_imgs/article1_header.jpeg'
 ---
 
+# The 2 Sigma Problem and the AI Tutor Dream
+
 June 3, 2025
 
 By Vassili Philippov
-
----
-
-# The 2 Sigma Problem and the AI Tutor Dream
 
 The AI tutor dream is somewhat built on a 1984 study, “The 2 Sigma Problem.” 5,000+ citations! It’s based on a Randomised Control Trial (RCT) and must be legit. Right? Well, it’s actually not.
 
