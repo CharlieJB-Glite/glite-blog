@@ -6,6 +6,11 @@ desc: "The current state of education as a science reminds me where the medicine
 image: './assets/images/article_imgs/article1_header.jpeg'
 ---
 
+March 3, 2025
+
+By Vassili Philippov
+
+---
 # Education as Medicine
 
 March 12, 2025

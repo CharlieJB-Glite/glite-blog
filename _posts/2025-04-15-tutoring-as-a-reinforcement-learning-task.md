@@ -6,6 +6,11 @@ desc: "In the realm of artificial intelligence, there's a fascinating parallel t
 image: './assets/images/article_imgs/article1_header.jpeg'
 ---
 
+April 4, 2025
+
+By Vassili Philippov
+
+---
 # A Game-changing Tutoring Strategy
 
 April 15, 2025
