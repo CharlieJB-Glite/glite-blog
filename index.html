@@ -9,7 +9,7 @@ layout: default
 
             <div>
                 <h2>{{ post.title }}</h2>
-                <p class="post_date">{{ post.datefor th | date: "%B %-d, %Y" }}</p>
+                <p class="post_date">{{ post.date th | date: "%B %-d, %Y" }}</p>
                 <p>{{ post.desc | strip_html | truncatewords: 50 }}</p>
             </div>
         </div>
