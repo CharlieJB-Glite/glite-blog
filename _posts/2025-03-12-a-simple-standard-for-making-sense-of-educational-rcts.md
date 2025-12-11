@@ -24,8 +24,6 @@ So, I created a list of simple checks—12 things I look for to better understan
 
 [ERCT – Educational Randomised Controlled Trial (ERCT) Standard](https://erctpapers.com/)
 
----
-
 ## The Challenge of Educational Research
 
 Let’s be honest: figuring out what really works in education is hard. Like, really hard. It’s not like testing a new lightbulb - you can’t just flip a switch and see immediate, clear results. We’re dealing with complex human beings, diverse classrooms, and a million interacting factors.
@@ -45,7 +43,6 @@ Sounds perfect, right? Well… not always. I ran into RCTs that felt flimsy, eve
 
 It was like reading a recipe that said, “Bake until done.” Helpful? Not so much.
 
-
 I needed a quick, practical way to assess whether a study was designed robustly enough to make its findings useful.
 
  Not “perfect” (perfection is unattainable in education research), but solid enough to inspire confidence. I wasn’t trying to declare winners or say whether an intervention “worked” universally. I just wanted to know whether the study minimised the most common pitfalls.
@@ -61,8 +58,6 @@ That’s how the ERCT Standard was born: a personal checklist of 12 criteria, or
 I built and trained an AI agent to apply these 12 criteria consistently. To reduce errors, we use detailed prompts, multiple LLM checks, manual reviews, and even a Deep Research mode when needed. It’s not magic - just a disciplined way to apply the same lens to many studies quickly.
 
 ![A 3 by 4 grid displaying the ERCT framework](/assets/images/article_imgs/erct_framework.jpeg)
-
----
 
 ## Important Considerations and Disclaimers
 

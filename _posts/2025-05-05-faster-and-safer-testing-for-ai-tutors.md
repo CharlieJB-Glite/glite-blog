@@ -26,8 +26,6 @@ A virtual student is the same idea. It's a model that learns like a student.
 
 Let's break it down. Forget the sci-fi for a second.
 
----
-
 ## What a Virtual Student Actually Does
 
 At its core, a virtual student does one simple thing:
@@ -51,8 +49,6 @@ And it's not just about questions and answers. Think broader:
   - When did they study? (Timing matters.)
 
 If you can model that, you can test any teaching strategy. You can run thousands of "virtual experiments" in hours, not years.
-
----
 
 ## This Isn’t Fantasy: It’s Knowledge Tracing (KT)
 

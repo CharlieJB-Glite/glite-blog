@@ -15,8 +15,6 @@ By Peter Romov
 In an era where knowledge is expanding exponentially and traditional education systems struggle to keep pace, AI offers transformative solutions. The recent AI-Powered Education Meetup in London explored how machine learning, particularly Knowledge Tracing (KT), can revolutionise personalised learning.
 Benjamin Bloom’s seminal 1984 research, known as the 2 Sigma Problem, revealed that one-on-one tutoring improves student performance by two standard deviations compared to group learning. However, scaling human tutoring is impractical. Enter AI: by leveraging advanced models like Deep Knowledge Tracing (DKT) and Attentive Knowledge Tracing (AKT), we can replicate the benefits of personalised tutoring at scale.
 
----
-
 ## The 2 Sigma Problem: Why Personalised Learning Matters
 
 Bloom’s research demonstrated that students receiving one-on-one tutoring outperformed 98% of their peers in group settings. However, human tutoring is costly and unscalable. AI-driven **Intelligent Tutoring Systems (ITS)** aim to bridge this gap by:
@@ -29,8 +27,6 @@ Bloom’s research demonstrated that students receiving one-on-one tutoring outp
 
 _Benjamin Bloom (1984) The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. Bloom’s study showed one-on-one tutoring (far right) drastically outperforms conventional classroom learning._
 
----
-
 ## The Unprecedented Pace of Knowledge Growth
 
 One of the most pressing challenges in modern education is the **exponential growth of knowledge**. As highlighted in the AI-Powered Education Meetup, data from IBM suggests that by 2020, knowledge was doubling every **11–12 hours**—a staggering acceleration compared to historical benchmarks:
@@ -38,8 +34,6 @@ One of the most pressing challenges in modern education is the **exponential gro
 ![A curve showing an exponential increase in kowledge between the years 1900 and 2020](/assets/images/article_imgs/knowledge_shift.png)
 
 This rapid expansion means that **static curricula are obsolete**. Students can no longer rely on a fixed set of subjects; instead, they require dynamic, personalised learning systems that evolve alongside global advancements.
-
----
 
 ## Building Student Mind Profiles: The Key to Personalised Learning
 
@@ -67,8 +61,6 @@ By integrating LLMs with Knowledge Tracing, we create hybrid systems that:
 2. Track long-term progress (via KT models like AKT).
 
 For example, fine-tuned BERT embeddings can encode _the meaning of questions_ (e.g., “Solve for x in 2x + 5 = 15”), while KT models map how a student’s mastery evolves over time. Together, they overcome the limitations of standalone approaches—delivering truly adaptive learning.
-
----
 
 ## The Evolution of Knowledge Tracing: From Psychometrics to Deep Learning
 
@@ -114,8 +106,6 @@ Modern systems now leverage:
 
 **Why This Matters**: Each innovation solved specific limitations - from Rasch's one-dimensional view to today's holistic learning profiles. The next frontier? Unifying these approaches into _foundational knowledge models_ that learn across subjects and languages.
 
----
-
 ## How Hybrid Models Work: A Technical Breakdown
 
 The most advanced education systems today leverage a powerful dual-architecture approach that combines natural language understanding with sophisticated progress tracking. At the core lies a **language understanding layer** powered by models like BERT, which transform educational content—whether math problems, vocabulary questions, or science concepts—into rich semantic vectors that capture actual meaning rather than just question IDs. This enables the system to comprehend content at a deep level and handle multiple languages seamlessly. Working in tandem, the **knowledge tracing layer** employs specialized models like Attentive Knowledge Tracing (AKT) that continuously monitor each student's learning journey, adapting to their unique pace and predicting future performance with remarkable accuracy. Together, these components create an intelligent system that doesn't just present information, but truly understands both the material and the learner—enabling personalized education at unprecedented scale.
@@ -155,8 +145,6 @@ Perhaps most critically, these systems must navigate complex privacy considerati
 ### The Future: Where This Technology Is Heading
 
 The next generation of AI-powered education systems is poised to revolutionize learning with groundbreaking capabilities. These advanced platforms will deliver true multilingual support without requiring translation, seamlessly incorporating extracurricular activities like books read into their adaptive algorithms. Most transformative of all, they'll create comprehensive lifelong learning profiles that evolve alongside students, capturing their entire educational journey from childhood through adulthood. _“This suggests a pathway toward models that encode any activity—not just within one subject,”_ the speaker noted, envisioning systems that could synthesize learning across academic disciplines, languages, and real-world experiences into a unified, ever-growing knowledge map for each individual learner.
-
----
 
 ## The Path Forward: AI-Powered Education Is Here
 

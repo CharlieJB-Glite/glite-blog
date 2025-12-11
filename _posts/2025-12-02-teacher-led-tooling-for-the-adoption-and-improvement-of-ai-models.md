@@ -16,8 +16,6 @@ AI systems are advancing rapidly, but in education, progress is gated by somethi
 
 This article outlines how Eedi approaches AI adoption within schools, why we continue to collect real-world human data (in a synthetic-data era), and how our human-in-the-loop question-generation system, **AnSearch**, helps teachers create high-quality formative assessment while generating valuable training signals for the next generation of models.
 
----
-
 ## Trust Is Not a ‘Nice-to-Have’
 
 ![A graph of trust against accuracy. Comments include "Accuracy is necessary but not sufficient" and "Overtrust breeds disillusionment"](/assets/images/article_imgs/simon_trust.png)
@@ -33,8 +31,6 @@ Teachers vary enormously in both their enthusiasm for AI and their tolerance for
 A single surprising hallucination can permanently poison a teacher’s perception of the system. Conversely, too much early enthusiasm can collapse into disillusionment when the model reveals its weaknesses.
 
 What matters is not pushing everyone to trust AI, but **creating tools that allow trust to grow proportionally and sustainably as models improve**. That requires design choices that keep users in control.
-
----
 
 ## Why We Still Collect Real Tutoring Data
 
@@ -60,8 +56,6 @@ Synthetic data may be useful augmentation, but it **cannot replace real-world hu
 
 This is why Eedi has spent a decade releasing open datasets, hosting competitions, and supporting the learning engineering community. Good data accelerates the entire field.
 
----
-
 ## A Decade of Formative Assessment at Scale
 
 Eedi began in 2013 with a simple idea: formative assessment (diagnosing student misunderstandings during teaching) should be easy, scalable, and grounded in evidence.
@@ -73,8 +67,6 @@ This eventually led us to host research competitions (including at NeurIPS 2020)
 Generative AI opened a new frontier: could we help teachers create even better questions, with less effort, while retaining the human judgment necessary for trust?
 
 ![A timeline from 2013 to now, showing how Eedi has collected many diagnostic questions, implemented psychometric methods, hosted a competition at NeurIPS and continued to share numerous datasets.](/assets/images/article_imgs/simon_timeline.png)
-
----
 
 ## Introducing AnSearch: Human-in-the-Loop AI for Question Design
 
@@ -126,8 +118,6 @@ So we now have two datasets:
 
 These datasets provide a great source for training improved generative models and better evaluation models. Because we capture every iteration, rejection, and manual correction, we obtain far more granular insights than final outcomes alone could ever provide.
 
----
-
 ## What Teachers Told Us: Early Findings
 
 ### Evaluation metrics were not trusted
@@ -154,8 +144,6 @@ _“If I couldn’t manually edit the question, I would have given up.”_
 
 This affirms that human agency is not an optional feature; it is the core of trust-building.
 
----
-
 ## Misconceptions: A Cautionary Example
 
 One generated distractor for a question with a correct answer of 126 was… **126**.
@@ -165,8 +153,6 @@ The model then speculated about a “misconception” the student might have use
 This reflects a deeper issue: LLMs do not understand mathematical validity in the way teachers do. They imitate patterns of text rather than reason symbolically.
 
 There is promising research exploring hybrid models - symbolic engines combined with LLMs - and specialised models that generate misconceptions more reliably. But the example underscores why **human review remains essential**.
-
----
 
 ## Collecting a Diversity of Teacher Opinions
 
@@ -181,8 +167,6 @@ By gathering data on:
 - How they interpret student thinking
 
 …we gather not only preference data, but pedagogical diversity. This is foundational for building models that reflect real classrooms rather than idealised ones.
-
----
 
 ## What’s Next: Evaluating Evaluators
 
@@ -199,8 +183,6 @@ We envision modular, agentic systems where:
 - Communities can run competitions on these modular systems
 
 Think of it as creating a platform where innovation happens inside the workflow rather than around it.
-
----
 
 ## The Future of Formative Assessment
 

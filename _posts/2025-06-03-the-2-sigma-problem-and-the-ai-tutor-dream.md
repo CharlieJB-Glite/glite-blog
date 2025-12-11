@@ -24,8 +24,6 @@ Bloom’s study is like a magic trick. Here’s the setup:
 
 [Paul von Hippel](https://www.linkedin.com/in/paul-von-hippel-8663857/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BqUJU74%2FbSb%2BpFrPgywYcsA%3D%3D) did a great job investigating how the research was conducted and why it’s broken, and I highly recommend [his article](https://www.educationnext.org/two-sigma-tutoring-separating-science-fiction-from-science-fact/). However, as someone looking to elevate the RCT practice for AI tutoring, I’d like to summarise my thoughts on this, so we can avoid these basic mistakes when designing RCTs.
 
----
-
 ## Problem 1: The Three-Week Miracle
 
 Imagine claiming you’ve cured obesity… after extrapolating the progress of a three-week diet. 
@@ -59,9 +57,9 @@ Here’s what the tutored kids got _extra_:
 
 Half the “2 sigma” effect came from these extras. Imagine giving regular teachers the same tools. Would tutoring still shine?
 
----
+## So, where does this leave us?
 
-So, where does this leave us? Let’s not kid ourselves - Bloom’s study is like a shiny coin at the bottom of a murky pond. Tempting, sure. But can you really grab it? There are three big cracks in the glass: the study was short, it was narrow, and the playing field wasn’t even. That means we just can’t take its “2 sigma miracle” and slap it on real AI-driven classrooms, no matter how much we want to believe in educational magic.
+Let’s not kid ourselves - Bloom’s study is like a shiny coin at the bottom of a murky pond. Tempting, sure. But can you really grab it? There are three big cracks in the glass: the study was short, it was narrow, and the playing field wasn’t even. That means we just can’t take its “2 sigma miracle” and slap it on real AI-driven classrooms, no matter how much we want to believe in educational magic.
 
 Tutoring _does_ help, a lot though! But not “rocket-to-the-moon” a lot. Most serious studies land in the 0.4 to 0.9 sigma range. That’s solid, but it’s not the two-sigma jackpot Bloom dangled in front of us.
 

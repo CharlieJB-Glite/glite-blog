@@ -14,8 +14,6 @@ By Vassili Philippov
 
 The current state of education as a science reminds me where the medicine was slightly less than a hundred years ago. On a verge of converting from guesswork to a proper science. But for now many educational practices are still rooted in tradition and intuition rather than evidence. It’s as if we’re still relying on leeches and bloodletting to cure educational ills.
 
----
-
 ## What if Schools Worked Like 19th-Century Hospitals?
 
 Imagine walking into a hospital in the early 1800s. Doctors rely on intuition, tradition, and personal experience. Treatments are based on what feels right, not what works.
@@ -170,4 +168,3 @@ In 10-15 years, we’ll look back with astonishment. How did we ever trust intui
 12. Alfieri et al. (2011) [Does discovery-based instruction enhance learning?](https://doi.org/10.1037/a0021017)
 
 13. Connolly et al. (2018) [Randomised controlled trials (RCTs) in education research – methodological debates, questions, challenges](https://www.tandfonline.com/doi/full/10.1080/00131881.2018.1493353)
-

@@ -14,8 +14,6 @@ By Vassili Philippov
 
 In the realm of artificial intelligence, there's a fascinating parallel that many might overlook: great one-on-one tutoring is less like traditional classroom teaching and more akin to engaging in a high-stakes strategy game. It's an unexpected comparison, but one that mirrors the methods through which AI masters complex games - especially those plagued by uncertainty, such as Poker or StarCraft. These AI systems navigate through hidden cards and the fog of war, making strategic decisions based on incomplete information. How do they do this? Through a powerful approach known as Reinforcement Learning (RL).
 
----
-
 ## Applying Reinforcement Learning to Tutoring
 
 Reinforcement Learning enables AI to learn complex strategies by simulating millions of games. It involves trying various actions, observing outcomes, receiving feedback (rewards), and continuously refining a winning strategy through a cyclical process: Try -> Observe -> Learn -> Adapt. The AI learns over time, becoming adept at decision-making in uncertain environments.
