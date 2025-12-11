@@ -125,7 +125,7 @@ These datasets provide a great source for training improved generative models an
 Early versions relied too heavily on LLM judges, which tend to be overly positive about their own outputs. Teachers quickly learned to ignore these scores, and once you lose trust it is difficult to regain.
 LLM judges have a role, but are best **used within an ecosystem** that includes human benchmarking and more structured metrics.
 
-### Distractors were often useful but rarely perfect**
+### Distractors were often useful but rarely perfect
 
 Most items required editing of at least one distractor. Some teachers framed this as a failure; whereas we thought of this as quite a positive outcome – AnSearch was correct most of the time, and helped “fill in the gaps” when given a nudge.
 
